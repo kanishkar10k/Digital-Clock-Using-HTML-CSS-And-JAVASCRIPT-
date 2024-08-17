@@ -1,0 +1,29 @@
+.clock{
+    max-width: 300px;
+    margin: 230px auto;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0px 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:2px solid aquamarine;
+}
+.clock1{
+    font-size: x-large;
+    font-weight: bolder;
+    color: aquamarine;
+}
+body{
+    background-color: #3795BD;
+}
+button{
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: grey;
+    background-color: aquamarine;
+    color:darkgreen;
+}
+
+h1{
+    color:aquamarine;
+}
