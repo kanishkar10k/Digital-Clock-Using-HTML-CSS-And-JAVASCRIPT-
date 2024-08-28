@@ -16,7 +16,7 @@ function updateClock() {
     document.getElementById("hour").innerHTML = (hour < 10 ? "0" : "") + hour;
     document.getElementById("minute").innerHTML = (minute < 10 ? "0" : "") + minute;
     document.getElementById("second").innerHTML = (second < 10 ? "0" : "") + second;
-    document.getElementById("ampm").innerHTML = ampm;
+    document.getElementById("ampm").textContent = ampm;
     }
     case 24:{
     hour=(hour >= 24)? 0 : hour;
