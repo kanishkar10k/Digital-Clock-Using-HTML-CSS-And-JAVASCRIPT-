@@ -17,6 +17,7 @@ function updateClock() {
     document.getElementById("minute").innerHTML = (minute < 10 ? "0" : "") + minute;
     document.getElementById("second").innerHTML = (second < 10 ? "0" : "") + second;
     document.getElementById("ampm").textContent = ampm;
+    break;
     }
     case 24:{
     hour=(hour >= 24)? 0 : hour;
@@ -24,6 +25,7 @@ function updateClock() {
     document.getElementById("minute").innerHTML = (minute < 10 ? "0" : "") + minute;
     document.getElementById("second").innerHTML = (second < 10 ? "0" : "") + second;
     document.getElementById("ampm").innerHTML = "";
+    break;
     }
 }
 }
